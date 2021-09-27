@@ -1,23 +1,22 @@
-# TÍTULO DO PROJETO
+`CURSO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`CURSO`
+`DISCIPLINA - EIXO 1 - PROJETO DE DESENVOLVIMENTO FRONT-END`
 
-`DISCIPLINA`
+`SEMESTRE - 2/2021`
 
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste no desenvolvimento de uma plataforma que integra idosos e famílias (ou responsáveis) à cuidadores. O objetivo é facilitar a busca por profissionais desse nicho, com recomendações, boas avaliações e seriedade. Aos cuidadores a plataforma oferece a facilidade de oferecer seus serviços de maneira segura, simples e rápida.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+- Débora Yuri Fernandes Suzuki
+- Editte Maria Vitória Pinho
+- Patrícia Nascimento Freitas
+- Raquel Fernandes Negrão Soares
+- Victor Hugo Bernardino Magnani
 
 ## Orientador
 
-* Nome completo do professor 1
+- Nathália Assis Valentim
 
 ## Instruções de utilização
 
