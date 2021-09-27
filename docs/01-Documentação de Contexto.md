@@ -11,6 +11,7 @@ De acordo com a Organização Mundial da Saúde, a “Saúde é o estado de comp
 
 <p style="text-align: justify">
 Diante do exposto acima, percebe-se uma crescente necessidade de mecanismos de busca de profissionais cuidadores e que estejam realmente capacitados para o exercício dessa função. Sendo fundamental que o usuário tenha total segurança na contratação desses profissionais e que atendam adequadamente às individualidades dos idosos os quais irão cuidar, podendo selecionar os detalhes que melhor atendem suas necessidades. E para que os cuidadores tenham um breve conhecimento das necessidades que os idosos ou seus responsáveis estão buscando na hora de aceitar ou oferecer seus serviços. </p>
+<br>
 
 ## Problema
 
@@ -20,38 +21,49 @@ Conforme exposto, o problema que se busca resolver com este projeto é o de faci
 <p style="text-align: justify">
 Por outro lado, o projeto também visa facilitar o oferecimento de serviços do profissional cuidador devidamente credenciado, através de um cadastro e checagem de documentação e referências. </p>
 
-> **Links Úteis**:
+<!-- > **Links Úteis**:
 >
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/) -->
+<br>
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.
+<p style="text-align: justify">
+O objetivo geral deste trabalho é a criação de uma aplicação web que apresente ferramentas de seleção variada, que permita o acesso a um número de cuidadores com localização próxima e dentro das especificações desejadas. Sendo de fácil uso e seguro.
+Como objetivos específicos, podemos ressaltar:</p>
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+    • Fornecer funcionalidades que permitam selecionar através de filtros especialidades e condições;
+    • Oportunidade de cuidadores poderem oferecer seus serviços;
+    • Oferecer variedade e segurança na contratação de cuidadores.
 
-> **Links Úteis**:
->
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+<br>
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+<p style="text-align: justify">
+Segundo dados do IBGE (2018), a população brasileira manteve a tendência de envelhecimento dos últimos anos superando a marca de 30,2 milhões em 2017 (14,6% da população), entretanto o número de pessoas com mais de 60 anos já ultrapassou o número de crianças de até 9 anos no país.</p>
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+<p style="text-align: justify">
+Mesmo que a tendência esteja se mantendo, uma séries de projeções também realizadas também pelo IBGE apontam para uma desaceleração no ritmo de crescimento e uma inversão da pirâmide etária, isto é, menos crianças e mais idosos. Outro dado a ser considerado é a de que quase metade da população com deficiência no Brasil em 2019 (49,4%) era idosa. Também notícia do IBGE, é o crescimento do número de familiares que cuidam de idosos no país. Em 2019, o número de familiares que cuidavam de idosos era de 5,1 milhões, sendo que em 2016 era de 3,7 milhões. Portanto, o número de serviços para idosos deve continuar crescendo, e não há um crescimento proporcional na prestação desse serviço de maneira mais formal e segura.</p>
 
-> **Links Úteis**:
->
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+<p style="text-align: justify">
+Adicionalmente, a ideia é a possibilidade de contratação de um profissional que seja mais adequado e que esteja mais próximo até dos gostos do idoso, proporcionando não somente um serviço para medicação, banho e etc, mas também de uma companhia que possa ter assuntos em comum ou gostos em comum com o idoso.
+Não esquecendo de proporcionar um ambiente mais seguro possível para ambas as partes.</p>
+<br>
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+<p style="text-align: justify">
+Homens e mulheres, que residam com um idoso acima de 60 anos com ou sem necessidades especiais e que necessitam de um cuidador para acompanhamento e monitoramento.</p>
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+<p style="text-align: justify">
+O próprio idoso que more sozinho e que também necessite de acompanhamento e/ou monitoramento.</p>
+
+<p style="text-align: justify">
+Profissionais cuidadores de idosos.</p>
+<br>
 
 > **Links Úteis**:
 >
