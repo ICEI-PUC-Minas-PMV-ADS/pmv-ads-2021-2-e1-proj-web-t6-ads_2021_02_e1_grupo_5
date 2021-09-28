@@ -2,90 +2,87 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<p style="text-align: justify">
+As considerações levantadas para entender o problema e suas características principais foram desenvolvidas pela equipe por meio de pesquisa e entrevistas com as pessoas que seriam beneficiadas com esta aplicação web. Trouxemos mais detalhes na forma de personas e histórias de usuário.</p>
+<br>
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- Conceição Aparecida tem 44 anos, é técnica em enfermagem, buscando ser cuidadora de idosos como renda complementar. Principais aplicativos: Intagram, LinkedIn e WhatsApp.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Patrícia Freitas tem 43 anos, está en transição de carreira, atualmente estudando programação. Busca por cuidadores para sua mãe. Principais aplicativos: Intagram, LinkedIn, Telegram e WhatsApp.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+- Eleonora Alves tem 48 anos, é cuidadora de idosos há mais de 20 anos. Utiliza o WhatsApp.
+
+- Neusa Costa tem 82 anos, é aposentada e pensionista. Principais aplicativos: Intagram, Facebook, Telegram, WhatsApp e Zoom.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                                                                                                                                                                                                                                                           | PARA ... `MOTIVO/VALOR`                                                                                                                                                                                                                                                                             |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Patrícia             | Um acompanhante que fique com minha mãe em casa, para ela não ficar sozinha                                                                                                                                                                                                                                  | Porque ela teve um AVC (que afetou as habilidades cognitivas).                                                                                                                                                                                                                                      |
+| Eleonora             | Gostaria do recurso de avaliação.                                                                                                                                                                                                                                                                            | Pois cuidar é um aprendizado contínuo.                                                                                                                                                                                                                                                              |
+| Eleonora             | Gostaria de encontrar algumas dicas de como lidar com emergências.                                                                                                                                                                                                                                           | Para ajudar a aprimorar os conhecimentos dos cuidadores.                                                                                                                                                                                                                                            |
+| Conceição            | Gostaria de encontrar boas oportunidades de trabalho, segurança e orientações.                                                                                                                                                                                                                               | Para me sentir mais segura e ter mais autonomia para encontrar emprego.                                                                                                                                                                                                                             |
+| Conceição            | Oportunidades de conhecer as famílias e suas necessidades antes de apresentar meus serviços.                                                                                                                                                                                                                 | Para facilitar a procura neste trabalho.                                                                                                                                                                                                                                                            |
+| Conceição            | Poder criar um perfil onde possa expor minhas qualificações, experiências, referências e valor a ser cobrado pelo serviço.                                                                                                                                                                                   | Ter uma vitrine onde as famílias possam me conhecer melhor e saber se eu atendo aos requisitos que elas procuram.                                                                                                                                                                                   |
+| Neusa                | Um(a) acompanhante que possa me entender melhor, conversar, passear e fazer compras e que tenha algumas afinidades. Não possuo doenças muito graves, mas tenho problemas e necessidades relacionados a minha idade. Preciso de ajuda para atividades que precisam de força, mas também preciso de companhia. | Porque gostaria de poder contratar um cuidador que seja na verdade uma companhia. Um(a) profissional que me ajude, mas que eu possa escolher uma pessoa não muito nova para me entender melhor (40/50), do sexo feminino, que possua religião semelhante à minha etc. Enfim, ter opções de escolha. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+<br>
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+<p style="text-align: justify">
+O sistema web proposto deve ser uma solução acessível, prática e segura para aproximar cuidadores que buscam oportunidades profissionais e idosos que necessitam de cuidadores por um período específico ou não, possibilitando uma relação profissional entre as partes.</p>
+<br>
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID    | Descrição do Requisito                                                                                                                                                         | Prioridade |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
+| RF-01 | Permitir o cadastro dos usuários (cuidadores, idosos e responsáveis), realizando a validação através de um e-mail de confirmação ou SMS.                                       | ALTA       |
+| RF-02 | Possibilitar o usuário redefinir a sua senha utilizando um e-mail ou SMS de um número cadastrado, seguido de uma pergunta de segurança informada no momento do cadastro.       | ALTA       |
+| RF-03 | Permitir ao usuário a visualização, alteração e exclusão de seus dados do sistema.                                                                                             | ALTA       |
+| RF-04 | Avaliar o profissional através do sistema de 5 estrelas.                                                                                                                       | ALTA       |
+| RF-05 | Fornecer página de FAQ, com as principais dúvidas, e um e-mail de contato para maiores esclarecimentos.                                                                        | ALTA       |
+| RF-06 | Incluir destaque na página principal com informações do sistema e as soluções oferecidas.                                                                                      | ALTA       |
+| RF-07 | No momento do cadastro ter fácil identificação para o direcionamento do perfil – cuidador ou idoso/responsável.                                                                | ALTA       |
+| RF-08 | O site deverá permitir a comunicação entre usuários sem o compartilhamento de informações de contato.                                                                          | ALTA       |
+| RF-09 | Ter a função de conceder ou solicitar recomendações para os serviços prestados.                                                                                                | MÉDIA      |
+| RF-10 | Oferecer pesquisa dos profissionais cuidadores através de filtro de busca por especialidade, localização e perfil.                                                             | MÉDIA      |
+| RF-11 | Seção de depoimento dos usuários com relação ao uso do sistema.                                                                                                                | MÉDIA      |
+| RF-12 | No perfil dos profissionais cuidadores deverá haver campos para especificarem suas habilidades e disponibilidades e inserção de anexos (certificações e cartas de referência). | BAIXA      |
+| RF-13 | No perfil dos idosos deverá haver campos para especificarem suas necessidades, horários e quaisquer informações essenciais que devam ser de conhecimento dos cuidadores.       | BAIXA      |
+| RF-14 | Exibir resultados da busca por ordem de menor distância do usuário.                                                                                                            | BAIXA      |
+| RF-15 | Apresentar uma sessão de notícias e dicas referentes a todo o universo de cuidados e acompanhamento de idosos.                                                                 | BAIXA      |
 
+<br>
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID     | Descrição do Requisito                                                                        | Prioridade |
+| ------ | --------------------------------------------------------------------------------------------- | ---------- |
+| RNF-01 | O site deverá ser responsivo possibilitando a visualização em qualquer dispositivo.           | ALTA       |
+| RNF-02 | O site deverá rodar 24 horas por dia 7 dias por semana, com disponibilidade garantida de 98%. | ALTA       |
+| RNF-03 | O sistema deverá seguir a norma de qualidade ISSO 9126.                                       | ALTA       |
+| RNF-04 | O site deverá funcionar nos navegadores Google Chrome, Microsoft Edge, Firefox e Safari.      | ALTA       |
+| RNF-05 | O site deverá permitir o cadastro usando Google/Facebook.                                     | MÉDIA      |
+| RNF-06 | O site deverá enviar uma confirmação de email em até 5 min.                                   | MÉDIA      |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<br>
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID    | Restrição                                                                                                                                             |
+| ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 06/12/2021.                                               |
+| RE-02 | A equipe não pode subcontratar o desenvolvimento do trabalho.                                                                                         |
+| RE-03 | O termo de responsabilidade aceito no cadastro isenta o sistema de quaisquer ocorrências resultantes de atendimentos e comunicação entre os usuários. |
+| RE-04 | O site não será responsável por pagamentos e negociações de valores.                                                                                  |
+| RE-05 | A localização geográfica deverá ser restrita a usuários dentro do Brasil.                                                                             |
+| RE-06 | O sistema deverá ser implementado em linguagem JavaScript, HTML, CSS e Bootstrap.                                                                     |
+| RE-07 | Os usuários não poderão ter acesso aos dados pessoais de outros usuários.                                                                             |

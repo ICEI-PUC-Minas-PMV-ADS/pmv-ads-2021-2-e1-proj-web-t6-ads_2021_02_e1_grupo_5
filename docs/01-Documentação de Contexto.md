@@ -16,7 +16,7 @@ Diante do exposto acima, percebe-se uma crescente necessidade de mecanismos de b
 ## Problema
 
 <p style="text-align: justify">
-Conforme exposto, o problema que se busca resolver com este projeto é o de facilitar a busca de um profissional cuidador que seja ideal e adequado, suprindo a pequena oferta de canais de contratação e a limitação de escolhas de acordo com as necessidades do  familiar do idoso ou do próprio idoso também sendo um usuário direto. </p>
+Conforme apresentado, o problema que se busca resolver com este projeto é o de facilitar a busca de um profissional cuidador que seja ideal e adequado, suprindo a pequena oferta de canais de contratação e a limitação de escolhas de acordo com as necessidades do  familiar do idoso ou do próprio idoso também sendo um usuário direto. </p>
 
 <p style="text-align: justify">
 Por outro lado, o projeto também visa facilitar o oferecimento de serviços do profissional cuidador devidamente credenciado, através de um cadastro e checagem de documentação e referências. </p>
@@ -56,13 +56,13 @@ Não esquecendo de proporcionar um ambiente mais seguro possível para ambas as 
 ## Público-Alvo
 
 <p style="text-align: justify">
-Homens e mulheres, que residam com um idoso acima de 60 anos com ou sem necessidades especiais e que necessitam de um cuidador para acompanhamento e monitoramento.</p>
+* Homens e mulheres, que residam com um idoso acima de 60 anos com ou sem necessidades especiais e que necessitam de um cuidador para acompanhamento e monitoramento.</p>
 
 <p style="text-align: justify">
-O próprio idoso que more sozinho e que também necessite de acompanhamento e/ou monitoramento.</p>
+* O próprio idoso que more sozinho e que também necessite de acompanhamento e/ou monitoramento.</p>
 
 <p style="text-align: justify">
-Profissionais cuidadores de idosos.</p>
+* Profissionais cuidadores de idosos.</p>
 <br>
 
 > **Links Úteis**:
