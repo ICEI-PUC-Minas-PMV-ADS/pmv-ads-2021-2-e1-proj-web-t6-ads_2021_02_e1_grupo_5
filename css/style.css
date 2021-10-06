@@ -1,0 +1,232 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  margin: 20px 50px;
+}
+.header__logo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.header__logo--icon {
+  background-image: url("/src/Images/Logo_Header.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.header__logo--text {
+  background-image: url("/src/Images/Logo_Header_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 40px;
+}
+.header nav {
+  width: 60%;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 0 180px;
+}
+.header__navbar--tab {
+  color: #9dc8cf;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header__navbar--tab:hover {
+  color: #263b58;
+}
+.header__navbar--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  color: #263b58;
+  font-weight: 700;
+  background-color: #9dc8cf;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header__navbar--btn:hover {
+  color: #9dc8cf;
+  background-color: #263b58;
+}
+
+.banner__1 {
+  background-image: url("/src/Images/banner1.png");
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner__1--text {
+  width: 600px;
+  margin-right: 600px;
+  text-align: center;
+}
+.banner__1--icon {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: #ddab86;
+}
+.banner__1--title {
+  font-size: 36px;
+  color: #263b58;
+  text-align: center;
+}
+.banner__1--subtitle {
+  margin: 40px 50px;
+  font-size: 24px;
+  color: #467495;
+  text-align: center;
+}
+.banner__1--btn {
+  background-color: #263b58;
+  color: #fffefe;
+  padding: 10px 35px;
+  border-radius: 25px;
+}
+.banner__1--btn:hover {
+  background-color: #467495;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons__encontrar {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 50px 0;
+}
+.buttons__encontrar--cuidadores {
+  background-color: #9dc8cf;
+  color: #263b58;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.buttons__encontrar--cuidadores:hover {
+  color: #9dc8cf;
+  background-color: #263b58;
+}
+.buttons__encontrar--familias {
+  background-color: #9dc8cf;
+  color: #263b58;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.buttons__encontrar--familias:hover {
+  color: #9dc8cf;
+  background-color: #263b58;
+}
+
+.explanation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  margin-bottom: 50px;
+}
+.explanation__logo {
+  background-image: url("/src/Images/Logo_Header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+}
+.explanation__text {
+  width: 800px;
+  margin-left: 30px;
+}
+.explanation__text--title {
+  font-size: 28px;
+  color: #467495;
+}
+.explanation__text--subtitle {
+  margin: 10px 0 50px 0;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 24px;
+  color: #263b58;
+}
+.explanation__text--btn {
+  background-color: #ddab86;
+  color: #fffefe;
+  padding: 10px 35px;
+  border-radius: 25px;
+}
+.explanation__text--btn:hover {
+  background-color: #467495;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 380px;
+  background-color: #9dc8cf;
+}
+.services__img {
+  background-image: url("/src/Images/banner_serviços.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 720px;
+  height: 200px;
+}
+.services__text {
+  width: 470px;
+  margin-right: 100px;
+}
+.services__text--title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #263b58;
+}
+.services__text--subtitle {
+  margin: 10px 0 35px 0;
+  text-align: justify;
+  font-size: 17px;
+  line-height: 24px;
+  color: #263b58;
+}
+.services__text--btn {
+  background-color: #467495;
+  color: #fffefe;
+  padding: 10px 35px;
+  border-radius: 25px;
+}
+.services__text--btn:hover {
+  background-color: #263b58;
+}
+
+/*# sourceMappingURL=style.css.map */
