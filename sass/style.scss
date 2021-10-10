@@ -266,3 +266,82 @@
     }
   }
 }
+
+.testimonials {
+  margin: 50px 150px;
+  padding: 40px 50px;
+  border-radius: 60px;
+
+  height: 380px;
+  background-color: $mediumBlue;
+  color: $light;
+
+  &__title {
+    font-size: 28px;
+  }
+
+  &__people {
+    display: flex;
+
+    &--person1,
+    &--person2 {
+      display: flex;
+      align-items: center;
+      width: 50%;
+      height: 270px;
+
+      .testimonial {
+        &__picture {
+          img {
+            width: 160px;
+            height: 160px;
+          }
+        }
+      }
+
+      .text {
+        padding: 0 15px;
+        .testimonial {
+          font-size: 17px;
+          line-height: 20px;
+          display: flex;
+          align-items: center;
+
+          &__text {
+            text-align: justify;
+            padding-bottom: 25px;
+          }
+
+          &__name {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    &--person2 {
+      display: flex;
+      align-items: center;
+      width: 50%;
+
+      .testimonial {
+        &__picture {
+          img {
+            width: 160px;
+            height: 160px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+
+  height: 300px;
+  width: 100%;
+
+  background-color: $darkBlue;
+  color: $light;
+}
