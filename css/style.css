@@ -96,6 +96,9 @@ a {
   font-size: 40px;
   color: #ddab86;
 }
+.banner__1--icon:hover {
+  color: #263b58;
+}
 .banner__1--title {
   font-size: 36px;
   color: #263b58;
@@ -281,10 +284,74 @@ a {
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
   height: 300px;
   width: 100%;
   background-color: #263b58;
   color: #fffefe;
+}
+.footer__nav--tab {
+  padding: 5px 0;
+}
+.footer__nav--tab:hover {
+  font-weight: 700;
+  color: #ddab86;
+}
+.footer__nav p {
+  padding-top: 30px;
+}
+.footer__socials i {
+  font-size: 30px;
+  padding: 10px 10px 0 0;
+}
+.footer__socials i:hover {
+  color: #ddab86;
+}
+.footer__contact {
+  width: 400px;
+}
+.footer__contact--name, .footer__contact--email, .footer__contact--message {
+  height: 30px;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+  color: #fffefe;
+  font-weight: 600;
+  padding-left: 8px;
+}
+.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+  color: #fffefe;
+  font-weight: 400;
+  opacity: 60%;
+}
+.footer__contact--message {
+  font-family: "Roboto", sans-serif;
+  height: 80px;
+  width: 100%;
+  margin: 5px 0;
+  padding-top: 5px;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+}
+.footer__contact--message::placeholder {
+  color: #fffefe;
+  opacity: 60%;
+}
+.footer__contact--btn {
+  width: 60px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+  color: #fffefe;
+  font-weight: 600;
+}
+.footer__contact--btn:hover {
+  background-color: #ddab86;
 }
 
 /*# sourceMappingURL=style.css.map */

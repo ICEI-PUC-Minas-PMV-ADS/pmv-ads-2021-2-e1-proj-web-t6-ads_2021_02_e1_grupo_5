@@ -98,6 +98,10 @@
 
     font-size: 40px;
     color: $lightRose;
+
+    &:hover {
+      color: $darkBlue;
+    }
   }
 
   &--title {
@@ -338,10 +342,97 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
 
   height: 300px;
   width: 100%;
 
   background-color: $darkBlue;
   color: $light;
+
+  &__nav {
+    &--tab {
+      padding: 5px 0;
+
+      &:hover {
+        font-weight: 700;
+        color: $lightRose;
+      }
+    }
+
+    p {
+      padding-top: 30px;
+    }
+  }
+
+  &__socials {
+    i {
+      font-size: 30px;
+      padding: 10px 10px 0 0;
+
+      &:hover {
+        color: $lightRose;
+      }
+    }
+  }
+
+  &__contact {
+    width: 400px;
+
+    &--name,
+    &--email,
+    &--message {
+      height: 30px;
+      width: 100%;
+      margin: 5px 0;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      color: $light;
+      font-weight: 600;
+      padding-left: 8px;
+
+      &::placeholder {
+        color: $light;
+        font-weight: 400;
+        opacity: 60%;
+      }
+    }
+
+    &--message {
+      font-family: 'Roboto', sans-serif;
+      height: 80px;
+      width: 100%;
+      margin: 5px 0;
+      padding-top: 5px;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      &::placeholder {
+        color: $light;
+        opacity: 60%;
+      }
+    }
+
+    &--btn {
+      width: 60px;
+      height: 30px;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      color: $light;
+      font-weight: 600;
+
+      &:hover {
+        background-color: $lightRose;
+      }
+    }
+  }
 }

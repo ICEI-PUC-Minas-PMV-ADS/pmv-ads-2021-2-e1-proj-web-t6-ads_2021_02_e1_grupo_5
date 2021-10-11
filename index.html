@@ -142,13 +142,13 @@
     <footer class="footer">
       <div class="footer__nav">
         <ul>
-          <li class="footer_nav--tab">INÍCIO</li>
-          <li class="footer_nav--tab">QUEM SOMOS</li>
-          <li class="footer_nav--tab">PERGUNTAS</li>
-          <li class="footer_nav--tab">SERCIÇOS</li>
-          <li class="footer_nav--tab">NOTÍCIAS</li>
+          <li class="footer__nav--tab">INÍCIO</li>
+          <li class="footer__nav--tab">QUEM SOMOS</li>
+          <li class="footer__nav--tab">PERGUNTAS</li>
+          <li class="footer__nav--tab">SERCIÇOS</li>
+          <li class="footer__nav--tab">NOTÍCIAS</li>
         </ul>
-        <p>© 2021 PUC Minas</p>
+        <p>© 2021 PUC-MG - Curso ADS</p>
       </div>
       <div class="footer__socials">
         <p>NOS ACOMPANHE NAS REDES SOCIAIS</p>
@@ -158,14 +158,26 @@
         </div>
       </div>
 
-      <form action="">
+      <form class="footer__contact" action="">
         <p>CONTATO</p>
-        <input type="text" name="contac_name" placeholder="Nome" /><br />
-        <input type="text" name="contac_email" placeholder="E-mail" /><br />
+        <input
+          type="text"
+          class="footer__contact--name"
+          name="contac_name"
+          placeholder="Nome"
+        /><br />
+        <input
+          type="text"
+          class="footer__contact--email"
+          name="contac_email"
+          placeholder="E-mail"
+        /><br />
         <textarea
+          class="footer__contact--message"
           name="contact_message"
           placeholder="Escreva sua mensagem aqui..."
         ></textarea>
+        <input class="footer__contact--btn" type="submit" value="Enviar" />
       </form>
     </footer>
   </body>
