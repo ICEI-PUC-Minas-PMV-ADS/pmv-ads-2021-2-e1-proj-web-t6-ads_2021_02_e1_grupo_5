@@ -1,0 +1,114 @@
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.register {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/src/images/backgrounds/register_2.jpeg);
+  background-size: cover;
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register__modal {
+  width: 800px;
+  height: 700px;
+  background-color: rgba(255, 254, 254, 0.8);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px;
+  font-size: 18px;
+  color: #263b58;
+}
+.register__modal p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+.register__modal--back {
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: end;
+}
+.register__modal--back:hover {
+  color: #467495;
+}
+.register__modal--form {
+  margin-top: 40px;
+}
+.register__modal--form table {
+  width: 100%;
+  border-spacing: 20px 10px;
+}
+.register__modal--form table tr {
+  width: 100%;
+}
+.register__modal--form table tr td {
+  width: 45%;
+}
+.register__modal--form table tr td label {
+  font-weight: 700;
+}
+.register__modal--form table tr td label input {
+  height: 40px;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+  color: #fffefe;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 8px;
+}
+.register__modal--form .user__accepted {
+  margin: 10px 0 50px 20px;
+  display: flex;
+  align-items: center;
+}
+.register__modal--form .user__accepted input {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+}
+.register__modal--form .user__register {
+  text-align: center;
+}
+.register__modal--form .user__register--btn {
+  height: 45px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #263b58;
+  background-color: #9dc8cf;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.register__modal--form .user__register--btn:hover {
+  background-color: #263b58;
+  color: #9dc8cf;
+}
+
+/*# sourceMappingURL=style_registerIdoso.css.map */
