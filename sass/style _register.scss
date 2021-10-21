@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'utilities';
+
+@include reset;
+
+.register {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(/src/images/backgrounds/register_1.jpg);
+  background-size: cover;
+  opacity: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__modal {
+    width: 600px;
+    height: 300px;
+
+    background-color: rgba(255, 254, 254, 0.8);
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 50px 80px;
+
+    p {
+      color: $darkBlue;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+
+    &--buttons {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        height: 30px;
+        width: 300px;
+
+        margin: 5px 0;
+
+        background-color: $mediumBlue;
+        border-radius: 7px;
+        color: $light;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+          background-color: $darkBlue;
+          font-weight: 700;
+        }
+      }
+    }
+
+    &--back {
+      margin-top: 40px;
+
+      color: $darkBlue;
+      font-weight: 700;
+      text-decoration: underline;
+
+      &:hover {
+        color: $mediumBlue;
+      }
+    }
+  }
+}
