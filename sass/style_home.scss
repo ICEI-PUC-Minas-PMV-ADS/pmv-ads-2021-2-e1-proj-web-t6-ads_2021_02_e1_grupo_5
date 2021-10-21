@@ -13,14 +13,14 @@
     align-items: center;
 
     &--icon {
-      background-image: url('/src/Images/Logo_Header.png');
+      background-image: url('/src/images/icons/Logo_Header.png');
       background-size: cover;
       width: 50px;
       height: 50px;
     }
 
     &--text {
-      background-image: url('/src/Images/Logo_Header_2.png');
+      background-image: url('/src/images/icons/Logo_Header_2.png');
       background-size: contain;
       background-repeat: no-repeat;
       width: 300px;
@@ -80,7 +80,7 @@
 }
 
 .banner__1 {
-  background-image: url('/src/Images/banner1.png');
+  background-image: url('/src/images/banners/banner_1.png');
   background-size: contain;
 
   width: 100%;
@@ -186,7 +186,7 @@
   margin-bottom: 50px;
 
   &__logo {
-    background-image: url('/src/Images/Logo_Header.png');
+    background-image: url('/src/images/icons/Logo_Header.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -236,7 +236,7 @@
   background-color: $lightBlue;
 
   &__img {
-    background-image: url('/src/Images/banner_serviços.png');
+    background-image: url('/src/images/banners/banner_serviços.png');
     background-size: contain;
     background-repeat: no-repeat;
 
