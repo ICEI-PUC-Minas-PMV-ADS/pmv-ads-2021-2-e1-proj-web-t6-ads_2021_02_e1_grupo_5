@@ -59,6 +59,19 @@ function validarCadastro(event) {
     alert('Senha não informada');
     senha.focus();
     return;
+  } else {
+    // Verifica se a senha contem 8 caracteres, ao menos 1 letra e um número
+    const validator = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    validator.test(senha.value);
+
+    // Se a senha não estiver válida, exibe alerta e retorna
+    if (validator.test(senha.value) == false) {
+      alert(
+        'A senha deve conter ao menos 8 caracteres, incluindos LETRAS e NÚMEROS'
+      );
+      senha.focus();
+      return;
+    }
   }
 
   if (confirmacaoSenha.value == '') {
@@ -81,5 +94,5 @@ function validarCadastro(event) {
   }
 
   window.location.href = './registerFinish.html';
-  console.log('Cadastrado');
+  // console.log('Cadastrado');
 }
