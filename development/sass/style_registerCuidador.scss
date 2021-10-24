@@ -75,6 +75,11 @@
                 font-size: 18px;
                 font-weight: 600;
                 padding-left: 8px;
+
+                &:focus {
+                  border: 3px solid $darkBlue;
+                  outline: 0;
+                }
               }
             }
           }
