@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
@@ -12,13 +13,14 @@
     />
     <title>Companhia Senior</title>
 
+    <!-- Importação de fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-
+    <!-- Importação fontawesome (ícones) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -26,8 +28,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Importação CSS -->
+    <link rel="stylesheet" href="/css/style_registerIdoso.css" />
 
-    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Importação JavaScript -->
+    <script src="./script_inicio.js" defer></script>
   </head>
   <body>
     <main class="register">
@@ -42,17 +47,14 @@
                 <label
                   >Nome
                   <br />
-                  <input type="text" class="user__name" name="user_name"
+                  <input type="text" id="user__name" name="user_name"
                 /></label>
               </td>
               <td>
                 <label
                   >Sobrenome
                   <br />
-                  <input
-                    type="text"
-                    class="user__lastname"
-                    name="user_lastname"
+                  <input type="text" id="user__lastname" name="user_lastname"
                 /></label>
               </td>
             </tr>
@@ -61,17 +63,14 @@
                 <label
                   >Data de Nascimento
                   <br />
-                  <input
-                    type="date"
-                    class="user__birthday"
-                    name="user__birthday"
+                  <input type="date" id="user__birthday" name="user__birthday"
                 /></label>
               </td>
               <td>
                 <label
                   >E-mail
                   <br />
-                  <input type="email" class="user__email" name="user__email"
+                  <input type="email" id="user__email" name="user__email"
                 /></label>
               </td>
             </tr>
@@ -80,14 +79,14 @@
                 <label
                   >Cidade
                   <br />
-                  <input type="text" class="user__city" name="user__city"
+                  <input type="text" id="user__city" name="user__city"
                 /></label>
               </td>
               <td>
                 <label
                   >Estado
                   <br />
-                  <input type="text" class="user__state" name="user__state"
+                  <input type="text" id="user__state" name="user__state"
                 /></label>
               </td>
             </tr>
@@ -96,14 +95,20 @@
                 <label
                   >Senha
                   <br />
-                  <input type="password" class="user__city" name="user__city"
+                  <input
+                    type="password"
+                    id="user__password"
+                    name="user__password"
                 /></label>
               </td>
               <td>
                 <label
                   >Confirmar senha
                   <br />
-                  <input type="password" class="user__state" name="user__state"
+                  <input
+                    type="password"
+                    id="user__confirmPassword"
+                    name="user__confirmPassword"
                 /></label>
               </td>
             </tr>
@@ -112,7 +117,8 @@
             <input
               type="checkbox"
               name="user__accepted"
-              value="concordo"
+              id="user__accepted"
+              value="accepted"
             /><label for="user__accepted">
               Concordo com os
               <strong><u>Termos de uso e Responsabilidade</u></strong>
@@ -123,6 +129,7 @@
               type="submit"
               class="user__register--btn"
               value="CADASTRAR"
+              onclick="validarCadastro(event)"
             />
           </div>
         </form>

@@ -1,0 +1,66 @@
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.register {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../src/images/backgrounds/register_4.jpg);
+  background-size: cover;
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register__modal {
+  width: 600px;
+  height: 300px;
+  background-color: rgba(255, 254, 254, 0.8);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 80px;
+}
+.register__modal p {
+  color: #263b58;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.register__modal--login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 170px;
+  margin: 5px 0;
+  background-color: #9dc8cf;
+  border-radius: 7px;
+  color: #263b58;
+  font-weight: 700;
+}
+.register__modal--login:hover {
+  background-color: #263b58;
+  color: #9dc8cf;
+}
+
+/*# sourceMappingURL=style_registerFinish.css.map */

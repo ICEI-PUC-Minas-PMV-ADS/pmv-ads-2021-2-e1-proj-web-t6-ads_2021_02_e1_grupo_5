@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/src/Images/Icons/Logo.png"
+    />
+    <title>Companhia Senior</title>
+
+    <!-- Importação de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Importação fontawesome (ícones) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Importação CSS -->
+    <link rel="stylesheet" href="./css/style_login.css" />
+
+    <!-- Importação JavaScript -->
+    <script src="./script_inicio.js" defer></script>
+  </head>
+  <body>
+    <main class="login">
+      <div class="login__modal">
+        <div class="login__modal--back">
+          <a href="./home.html">Voltar</a>
+        </div>
+        <div class="login__modal--logo">
+          <img src="./src/images/icons/Logo_Header.png" alt="" />
+        </div>
+
+        <form class="login__modal--form">
+          <table>
+            <tr>
+              <td>
+                <label
+                  >E-mail
+                  <br />
+                  <input type="email" class="user__email" name="user__email"
+                /></label>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label
+                  >Senha
+                  <br />
+                  <input
+                    type="password"
+                    class="user__password"
+                    name="user__password"
+                /></label>
+              </td>
+            </tr>
+          </table>
+          <div class="login__links">
+            <label for="user__save"
+              ><input type="checkbox" name="user__save" id="user__save" />
+              Manter conectado
+            </label>
+            <a id="user__resetPassword" href="">Esqueci a senha!</a>
+          </div>
+          <div class="login__submit">
+            <input
+              type="submit"
+              class="login__submit--btn"
+              value="ENTRAR"
+              onclick="validarCadastro(event)"
+            />
+          </div>
+          <div class="login__newRegister">
+            <p>Ainda não tem conta? <a href="">Cadastre-se!</a></p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
