@@ -59,24 +59,29 @@ a {
 .header__navbar--tab:hover {
   color: #263b58;
 }
+.header__navbar--tab:active {
+  color: #263b58;
+}
 .header__navbar--btn {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
   width: 120px;
+  color: #263b58;
   font-weight: 700;
   background-color: #9dc8cf;
   border-radius: 5px;
   cursor: pointer;
 }
-.header__navbar--btn a {
+.header__navbar--btn:visited {
   color: #263b58;
 }
 .header__navbar--btn:hover {
+  color: #9dc8cf;
   background-color: #263b58;
 }
-.header__navbar--btn:hover a {
+.header__navbar--btn:hover:visited {
   color: #9dc8cf;
 }
 
