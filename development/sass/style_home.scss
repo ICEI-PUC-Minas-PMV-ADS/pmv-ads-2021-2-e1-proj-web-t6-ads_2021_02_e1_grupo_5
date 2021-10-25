@@ -48,6 +48,10 @@
       &:hover {
         color: $darkBlue;
       }
+
+      &:active {
+        color: $darkBlue;
+      }
     }
 
     &--btn {
@@ -58,20 +62,22 @@
       height: 40px;
       width: 120px;
 
+      color: $darkBlue;
       font-weight: 700;
       background-color: $lightBlue;
       border-radius: 5px;
 
       cursor: pointer;
 
-      a {
+      &:visited {
         color: $darkBlue;
       }
 
       &:hover {
+        color: $lightBlue;
         background-color: $darkBlue;
 
-        a {
+        &:visited {
           color: $lightBlue;
         }
       }
