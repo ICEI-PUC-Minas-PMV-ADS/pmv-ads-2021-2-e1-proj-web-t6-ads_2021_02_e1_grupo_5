@@ -1,0 +1,315 @@
+/*QUEM SOMOS*/
+
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    margin: 20px 50px;
+}
+.header__logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.header__logo--icon {
+    background-image: url("/src/Images/Logo_Header.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.header__logo--text {
+    background-image: url("/src/Images/Logo_Header_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 40px;
+}
+.header nav {
+    width: 60%;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 0px 50px;
+}
+.header__navbar--tab {
+    color: #9dc8cf;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header__navbar--tab:hover {
+    color: #263b58;
+}
+.header__navbar--btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 120px;
+    font-weight: 700;
+    background-color: #9dc8cf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header__navbar--btn a {
+    color: #263b58;
+}
+.header__navbar--btn:hover {
+    background-color: #263b58;
+}
+.header__navbar--btn:hover a {
+    color: #9dc8cf;
+}
+.banner {
+    display: flex;
+    width: 1440px;
+    height: 383px;
+    left: 0px;
+    top: 100px;
+
+    background: url("/src/Images/about_1.png");
+}
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    margin: -85px 0px -25px 10px;
+}
+.card--1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: #263B58;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    width: 330px;
+    height: 310px;
+    border: 15px solid rgb(255, 255, 255);
+    padding: 30px;
+    margin: 25px 75px 75px 50px;
+}
+.mural{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mural_missao {
+    background:#9dc8cf;
+}
+.mural_missao h1{
+    color: #263B58;
+    margin: 150px 0px 100px 115px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+.mural_missao p{
+    color: #263B58;
+    margin: -130px 100px 100px 450px;
+
+    font-family: Roboto;  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+}
+.mural_valores{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.mural_valores h1 {
+    color: #263B58;
+    margin: 150px 0px 90px -560px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+.valoresimg {
+    width: 720px;
+    height: 550px;
+    margin: 0px -910px 0px 10px;
+}
+.mural_valores ul {
+    color: #263B58;
+    margin: 150px 10px 5px 140px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+}
+.mural_visao {
+    width: 1350px;
+    height: 200px;
+    background: #263B58;
+    color: #FFFEFE;
+}
+.mural_visao h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    
+    margin: 20px 0px 20px 160px;
+}
+.mural_visao p{
+    color: #FFFEFE;
+    margin: 0px 100px 0px 210px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 127% */
+}
+.mural_visao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #263B58;
+    margin: 725px 50 0 0;
+}
+.carrd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background: #9dc8cf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+    width: 1150px;
+    height: 230px;
+    border: 15px solid #9dc8cf;
+    padding: 0px;
+    margin: 25px 0px 25px 150px;
+
+    font-family: Roboto;
+    color: #263b58;
+}
+.card h1 {
+    margin: 5px 0px 5px 0px;
+}
+.card h2 {
+    margin: 5px 0px 5px 0px;
+    align-items: center;
+    color: #467495;
+}
+.cardd {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    color: #FFFEFE;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    height: 300px;
+    width: 100%;
+    background-color: #263b58;
+    color: #fffefe;
+}
+.footer__nav--tab {
+    padding: 5px 0;
+}
+.footer__nav--tab:hover {
+    font-weight: 700;
+    color: #ddab86;
+}
+.footer__nav p {
+    padding-top: 30px;
+}
+.footer__socials i {
+    font-size: 30px;
+    padding: 10px 10px 0 0;
+}
+.footer__socials i:hover {
+    color: #ddab86;
+}
+.footer__contact {
+    width: 400px;
+}
+.footer__contact--name, .footer__contact--email, .footer__contact--message {
+    height: 30px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+    color: #fffefe;
+    font-weight: 400;
+    opacity: 60%;
+}
+.footer__contact--message {
+    font-family: "Roboto", sans-serif;
+    height: 80px;
+    width: 100%;
+    margin: 5px 0;
+    padding-top: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+}
+.footer__contact--message::placeholder {
+    color: #fffefe;
+    opacity: 60%;
+}
+.footer__contact--btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+}
+.footer__contact--btn:hover {
+    background-color: #ddab86;
+}
