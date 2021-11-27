@@ -1,7 +1,7 @@
 @charset "UTF-8";
 html {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -30,13 +30,13 @@ a {
   align-items: center;
 }
 .header__logo--icon {
-  background-image: url("/src/images/icons/Logo_Header.png");
+  background-image: url('/src/images/icons/Logo_Header.png');
   background-size: cover;
   width: 50px;
   height: 50px;
 }
 .header__logo--text {
-  background-image: url("/src/images/icons/Logo_Header_2.png");
+  background-image: url('/src/images/icons/Logo_Header_2.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
@@ -86,7 +86,7 @@ a {
 }
 
 .banner__1 {
-  background-image: url("/src/images/banners/banner_1.png");
+  background-image: url('/src/images/banners/banner_1.png');
   background-size: contain;
   width: 100%;
   height: 400px;
@@ -141,22 +141,26 @@ a {
   margin: 50px 0;
 }
 .buttons__encontrar--cuidadores {
+  width: 49%;
   background-color: #9dc8cf;
   color: #263b58;
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 5px;
+  text-align: center;
 }
 .buttons__encontrar--cuidadores:hover {
   color: #9dc8cf;
   background-color: #263b58;
 }
 .buttons__encontrar--familias {
+  width: 49%;
   background-color: #9dc8cf;
   color: #263b58;
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 5px;
+  text-align: center;
 }
 .buttons__encontrar--familias:hover {
   color: #9dc8cf;
@@ -171,7 +175,7 @@ a {
   margin-bottom: 50px;
 }
 .explanation__logo {
-  background-image: url("/src/images/icons/Logo_Header.png");
+  background-image: url('/src/images/icons/Logo_Header.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 180px;
@@ -210,7 +214,7 @@ a {
   background-color: #9dc8cf;
 }
 .services__img {
-  background-image: url("/src/images/banners/banner_serviços.png");
+  background-image: url('/src/images/banners/banner_serviços.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 720px;
@@ -256,30 +260,36 @@ a {
 .testimonials__people {
   display: flex;
 }
-.testimonials__people--person1, .testimonials__people--person2 {
+.testimonials__people--person1,
+.testimonials__people--person2 {
   display: flex;
   align-items: center;
   width: 50%;
   height: 270px;
 }
-.testimonials__people--person1 .testimonial__picture img, .testimonials__people--person2 .testimonial__picture img {
+.testimonials__people--person1 .testimonial__picture img,
+.testimonials__people--person2 .testimonial__picture img {
   width: 160px;
   height: 160px;
 }
-.testimonials__people--person1 .text, .testimonials__people--person2 .text {
+.testimonials__people--person1 .text,
+.testimonials__people--person2 .text {
   padding: 0 15px;
 }
-.testimonials__people--person1 .text .testimonial, .testimonials__people--person2 .text .testimonial {
+.testimonials__people--person1 .text .testimonial,
+.testimonials__people--person2 .text .testimonial {
   font-size: 17px;
   line-height: 20px;
   display: flex;
   align-items: center;
 }
-.testimonials__people--person1 .text .testimonial__text, .testimonials__people--person2 .text .testimonial__text {
+.testimonials__people--person1 .text .testimonial__text,
+.testimonials__people--person2 .text .testimonial__text {
   text-align: justify;
   padding-bottom: 25px;
 }
-.testimonials__people--person1 .text .testimonial__name, .testimonials__people--person2 .text .testimonial__name {
+.testimonials__people--person1 .text .testimonial__name,
+.testimonials__people--person2 .text .testimonial__name {
   font-weight: 700;
 }
 .testimonials__people--person2 {
@@ -301,12 +311,21 @@ a {
   background-color: #263b58;
   color: #fffefe;
 }
-.footer__nav--tab {
-  padding: 5px 0;
+.footer__nav li {
+  margin: 5px 0;
 }
-.footer__nav--tab:hover {
+.footer__nav li:hover {
   font-weight: 700;
   color: #ddab86;
+}
+.footer__nav li:visited {
+  color: inherit;
+}
+.footer__nav--tab {
+  cursor: pointer;
+}
+.footer__nav--tab:visited {
+  color: inherit;
 }
 .footer__nav p {
   padding-top: 30px;
@@ -321,7 +340,9 @@ a {
 .footer__contact {
   width: 400px;
 }
-.footer__contact--name, .footer__contact--email, .footer__contact--message {
+.footer__contact--name,
+.footer__contact--email,
+.footer__contact--message {
   height: 30px;
   width: 100%;
   margin: 5px 0;
@@ -332,13 +353,15 @@ a {
   font-weight: 600;
   padding-left: 8px;
 }
-.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+.footer__contact--name::placeholder,
+.footer__contact--email::placeholder,
+.footer__contact--message::placeholder {
   color: #fffefe;
   font-weight: 400;
   opacity: 60%;
 }
 .footer__contact--message {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 80px;
   width: 100%;
   margin: 5px 0;
@@ -352,7 +375,7 @@ a {
   opacity: 60%;
 }
 .footer__contact--btn {
-  width: 60px;
+  width: 80px;
   height: 30px;
   border: none;
   border-radius: 7px;

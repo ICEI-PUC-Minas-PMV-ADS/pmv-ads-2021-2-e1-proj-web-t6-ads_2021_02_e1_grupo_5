@@ -1,0 +1,271 @@
+@import 'variables';
+@import 'utilities';
+
+@include reset;
+
+.header {
+  display: flex;
+  margin: 20px 50px;
+
+  &__logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+    &--icon {
+      background-image: url('/src/images/icons/Logo_Header.png');
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+    }
+
+    &--text {
+      background-image: url('/src/images/icons/Logo_Header_2.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 40px;
+    }
+  }
+
+  nav {
+    width: 60%;
+  }
+
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 15px 0 180px;
+
+    &--tab {
+      color: $lightBlue;
+      font-weight: 700;
+
+      cursor: pointer;
+
+      &:hover {
+        color: $darkBlue;
+      }
+
+      &:active {
+        color: $darkBlue;
+      }
+    }
+
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 40px;
+      width: 120px;
+
+      color: $darkBlue;
+      font-weight: 700;
+      background-color: $lightBlue;
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      &:visited {
+        color: $darkBlue;
+      }
+
+      &:hover {
+        color: $lightBlue;
+        background-color: $darkBlue;
+
+        &:visited {
+          color: $lightBlue;
+        }
+      }
+    }
+  }
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+    &--1 {
+      margin-right: 12px;
+      color: $lightBlue;
+    }
+
+    &--2 {
+      color: $darkBlue;
+    }
+  }
+
+  &__body {
+    width: 800px;
+    font-size: 17px;
+    margin-bottom: 30px;
+
+    color: $darkBlue;
+
+    details {
+      min-height: 40px;
+      margin-bottom: 20px;
+      padding: 0 10px;
+
+      border-bottom: 1px solid $lightBlue;
+    }
+
+    &--question {
+      display: flex;
+      justify-content: space-between;
+
+      list-style: none;
+      cursor: pointer;
+
+      font-weight: 600;
+
+      i {
+        font-size: 14px;
+      }
+    }
+
+    &--answer {
+      padding: 10px 10px 20px 10px;
+
+      text-align: justify;
+    }
+  }
+}
+
+.banner__1 {
+  background-image: url('/src/images/banners/banner_faq.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 380px;
+
+  padding: 0 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
+
+  height: 300px;
+  width: 100%;
+
+  background-color: $darkBlue;
+  color: $light;
+
+  &__nav {
+    li {
+      margin: 5px 0;
+
+      &:hover {
+        font-weight: 700;
+        color: $lightRose;
+      }
+
+      &:visited {
+        color: inherit;
+      }
+    }
+
+    &--tab {
+      cursor: pointer;
+
+      &:visited {
+        color: inherit;
+      }
+    }
+
+    p {
+      padding-top: 30px;
+    }
+  }
+
+  &__socials {
+    i {
+      font-size: 30px;
+      padding: 10px 10px 0 0;
+
+      &:hover {
+        color: $lightRose;
+      }
+    }
+  }
+
+  &__contact {
+    width: 400px;
+
+    &--name,
+    &--email,
+    &--message {
+      height: 30px;
+      width: 100%;
+      margin: 5px 0;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      color: $light;
+      font-weight: 600;
+      padding-left: 8px;
+
+      &::placeholder {
+        color: $light;
+        font-weight: 400;
+        opacity: 60%;
+      }
+    }
+
+    &--message {
+      font-family: 'Roboto', sans-serif;
+      height: 80px;
+      width: 100%;
+      margin: 5px 0;
+      padding-top: 5px;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      &::placeholder {
+        color: $light;
+        opacity: 60%;
+      }
+    }
+
+    &--btn {
+      width: 80px;
+      height: 30px;
+
+      border: none;
+      border-radius: 7px;
+      background-color: $mediumBlue;
+
+      color: $light;
+      font-weight: 600;
+
+      &:hover {
+        background-color: $lightRose;
+      }
+    }
+  }
+}

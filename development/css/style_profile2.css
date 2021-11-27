@@ -1,0 +1,313 @@
+/* PERFIL (FAMÍLIA) */
+
+html {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.backgroud {
+    position: relative;
+    width: 1440px;
+    height: 2037px;
+    background: #FFFFFF;
+    }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr; /*colunas*/
+    grid-template-rows: auto; /*linhas*/
+    grid-template-areas: "cabecalho"
+                        "conteudo"
+                        "periferico"
+                        "rodape"; /*corpo do site*/
+    grid-gap: 55px 0px;
+}
+    /* Header */
+.header {
+    display: flex;
+    margin: 20px 50px;
+}
+.header__logo {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    grid-area: cabecalho;
+}
+.header__logo-icon {
+    background-image: url("/src/Images/Logo_Header.png");
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.header__logo--text {
+    background-image: url("/src/Images/Logo_Header_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 40px;
+}
+.header nav {
+    width: 60%;
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 180px;
+    grid-area: cabecalho;
+}
+.header__navbar--tab {
+    color: #9dc8cf;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header__navbar--tab:hover {
+    color: #263b58;
+}
+/* Div */
+.profileHeader {
+    display: flex;
+    width: 1440px;
+    height: 383px;
+    left: 0px;
+    top: 100px;
+
+    background: url("/src/Images/banner_profile.png");
+}
+.profileHeader__img {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: 230px 105px;
+    width: 300px;
+    height: 292.59px;
+    left: 115px;
+    top: 362px;
+
+}
+
+.profileHeader__user--name {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: 400px -197px;
+    width: 286px;
+    height: 430px;
+    left: 10px;
+    top: 508px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #467495;
+}
+
+.profileHeader__user--localidade {
+    display: flex;
+    justify-content:right;
+    align-items: stretch;
+    margin: -790px -100px;
+    width: 263px;
+    height: 32px;
+    left: 433px;
+    top: 1551px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #467495;
+}
+/* Main */
+main {
+    grid-area: conteudo;
+}
+.profile {
+    font-family: Roboto;
+    font-style: normal;
+    color: #263B58;
+
+    grid-area: conteudo;
+}
+.profile__quemsou,
+.profile__especial,
+.profile__oque,
+.profile__relato,
+.profile__necessidade{
+    width: 80%;
+    text-align:justify;
+}
+.profile__quemsou--title,
+.profile__especial--title,
+.profile__oque--title,
+.profile__relato--title,
+.profile__necessidade--title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    padding-bottom: 10px;
+    margin: 150px 10px 10px 150px;
+
+    border-bottom: solid 0.5px #9dc8cf;
+}
+.profile__quemsou--text,
+.profile__especial--text,
+.profile__necessidade--text,
+.profile__oque--text,
+.profile__relato--text{
+    line-height: 21px;
+    margin: 10px 10px 30px 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    height: 300px;
+    width: 100%;
+    background-color: #263b58;
+    color: #fffefe;
+
+    grid-area: rodape;
+}
+.footer__nav--tab {
+    padding: 5px 0;
+}
+.footer__nav--tab:hover {
+    font-weight: 700;
+    color: #ddab86;
+}
+.footer__nav p {
+    padding-top: 30px;
+}
+.footer__socials i {
+    font-size: 30px;
+    padding: 10px 10px 0 0;
+}
+.footer__socials i:hover {
+    color: #ddab86;
+}
+.footer__contact {
+    width: 400px;
+}
+.footer__contact--name, .footer__contact--email, .footer__contact--message {
+    height: 30px;
+    width: 100%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+    color: #fffefe;
+    font-weight: 400;
+    opacity: 60%;
+}
+.footer__contact--message {
+    font-family: "Roboto", sans-serif;
+    height: 80px;
+    width: 100%;
+    margin: 5px 0;
+    padding-top: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+}
+.footer__contact--message::placeholder {
+    color: #fffefe;
+    opacity: 60%;
+}
+.footer__contact--btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    background-color: #467495;
+    color: #fffefe;
+    font-weight: 600;
+}
+.footer__contact--btn:hover {
+    background-color: #ddab86;
+}
+
+@media (max-width: 700px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: 250px 1fr; /*colunas*/
+        grid-template-rows: 150px 1fr 120px; /*linhas*/
+        grid-template-areas: "cabecalho cabecalho"
+                             "conteudo"
+                             "rodape rodape"; /*corpo do site*/
+        grid-gap: 50px 100px;
+    }
+    .header__navbar{
+        position: relative;
+        display: inline-block;
+        margin: 0px 0px 0px 110px;
+
+    }
+    .header__navbar--tab {
+        width: 100px;
+        font-size: 14px;
+
+        min-width: 200px;
+    }
+    .header__logo-icon{
+        width: 10;
+        height: 10;
+    }
+    .header__logo--text {
+        display: none;
+    }
+    .header__navbar {
+        padding: 0 15px 0 0px;
+        list-style:  inside;
+    }
+    .profileHeader {
+        width: 400px;
+        display: flex;
+        flex-flow: row wrap;
+
+        background: none;
+    }
+    .profileHeader__img{
+        margin: 100px 40px;
+    }
+    .profileHeader__user--name{
+        margin: -100px 60px 10px -80px;
+        font-size: 20px;
+    }
+    .profileHeader__user--localidade {
+        margin: -400px 60px 10px 5px;
+        font-size: 18px;
+    }
+    .profile {
+        display: flex;
+        flex-flow: row wrap;
+
+        width: 600px;
+        margin: 50px 10px 10px -120px;
+    }
+}

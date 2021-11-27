@@ -154,12 +154,15 @@
     margin: 50px 0;
 
     &--cuidadores {
+      width: 49%;
       background-color: $lightBlue;
       color: $darkBlue;
       font-weight: 700;
 
       padding: 10px 40px;
       border-radius: 5px;
+
+      text-align: center;
 
       &:hover {
         color: $lightBlue;
@@ -168,12 +171,15 @@
     }
 
     &--familias {
+      width: 49%;
       background-color: $lightBlue;
       color: $darkBlue;
       font-weight: 700;
 
       padding: 10px 40px;
       border-radius: 5px;
+
+      text-align: center;
 
       &:hover {
         color: $lightBlue;
@@ -364,12 +370,24 @@
   color: $light;
 
   &__nav {
-    &--tab {
-      padding: 5px 0;
+    li {
+      margin: 5px 0;
 
       &:hover {
         font-weight: 700;
         color: $lightRose;
+      }
+
+      &:visited {
+        color: inherit;
+      }
+    }
+
+    &--tab {
+      cursor: pointer;
+
+      &:visited {
+        color: inherit;
       }
     }
 
@@ -432,7 +450,7 @@
     }
 
     &--btn {
-      width: 60px;
+      width: 80px;
       height: 30px;
 
       border: none;
