@@ -1,0 +1,227 @@
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  margin: 20px 50px;
+}
+.header__logo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.header__logo--icon {
+  background-image: url("/src/images/icons/Logo_Header.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.header__logo--text {
+  background-image: url("/src/images/icons/Logo_Header_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 40px;
+}
+.header nav {
+  width: 60%;
+}
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px 0 180px;
+}
+.header__navbar--tab {
+  color: #9dc8cf;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header__navbar--tab:hover {
+  color: #263b58;
+}
+.header__navbar--tab:active {
+  color: #263b58;
+}
+.header__navbar--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  color: #263b58;
+  font-weight: 700;
+  background-color: #9dc8cf;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header__navbar--btn:visited {
+  color: #263b58;
+}
+.header__navbar--btn:hover {
+  color: #9dc8cf;
+  background-color: #263b58;
+}
+.header__navbar--btn:hover:visited {
+  color: #9dc8cf;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faq__title {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.faq__title--1 {
+  margin-right: 12px;
+  color: #9dc8cf;
+}
+.faq__title--2 {
+  color: #263b58;
+}
+.faq__body {
+  width: 800px;
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: #263b58;
+}
+.faq__body details {
+  min-height: 40px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  border-bottom: 1px solid #9dc8cf;
+}
+.faq__body--question {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.faq__body--question i {
+  font-size: 14px;
+}
+.faq__body--answer {
+  padding: 10px 10px 20px 10px;
+  text-align: justify;
+}
+
+.banner__1 {
+  background-image: url("/src/images/banners/banner_faq.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 380px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 150px;
+  height: 300px;
+  width: 100%;
+  background-color: #263b58;
+  color: #fffefe;
+}
+.footer__nav li {
+  margin: 5px 0;
+}
+.footer__nav li:hover {
+  font-weight: 700;
+  color: #ddab86;
+}
+.footer__nav li:visited {
+  color: inherit;
+}
+.footer__nav--tab {
+  cursor: pointer;
+}
+.footer__nav--tab:visited {
+  color: inherit;
+}
+.footer__nav p {
+  padding-top: 30px;
+}
+.footer__socials i {
+  font-size: 30px;
+  padding: 10px 10px 0 0;
+}
+.footer__socials i:hover {
+  color: #ddab86;
+}
+.footer__contact {
+  width: 400px;
+}
+.footer__contact--name, .footer__contact--email, .footer__contact--message {
+  height: 30px;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+  color: #fffefe;
+  font-weight: 600;
+  padding-left: 8px;
+}
+.footer__contact--name::placeholder, .footer__contact--email::placeholder, .footer__contact--message::placeholder {
+  color: #fffefe;
+  font-weight: 400;
+  opacity: 60%;
+}
+.footer__contact--message {
+  font-family: "Roboto", sans-serif;
+  height: 80px;
+  width: 100%;
+  margin: 5px 0;
+  padding-top: 5px;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+}
+.footer__contact--message::placeholder {
+  color: #fffefe;
+  opacity: 60%;
+}
+.footer__contact--btn {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: #467495;
+  color: #fffefe;
+  font-weight: 600;
+}
+.footer__contact--btn:hover {
+  background-color: #ddab86;
+}
+
+/*# sourceMappingURL=style_faq.css.map */
