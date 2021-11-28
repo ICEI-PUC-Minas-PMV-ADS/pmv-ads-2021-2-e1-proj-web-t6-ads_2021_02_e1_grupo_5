@@ -215,8 +215,6 @@ function mostrarSenha() {
 
 //Enviar mensagem de contato
 function enviarMensagem() {
-  event.preventDefault();
-
   const urlMessages = 'http://localhost:3000/messages';
 
   //Busca os dados do form
@@ -238,4 +236,6 @@ function enviarMensagem() {
   };
 
   postMessage(urlMessages);
+
+  alert('Mensage enviada! Logo entraremos em contato.');
 }

@@ -176,21 +176,23 @@
     li {
       margin: 5px 0;
 
-      &:hover {
-        font-weight: 700;
-        color: $lightRose;
-      }
+      a {
+        cursor: pointer;
+        color: $light;
 
-      &:visited {
-        color: inherit;
-      }
-    }
+        &:hover {
+          font-weight: 700;
+          color: $lightRose;
+        }
 
-    &--tab {
-      cursor: pointer;
+        &:visited {
+          color: $light;
 
-      &:visited {
-        color: inherit;
+          &:hover {
+            font-weight: 700;
+            color: $lightRose;
+          }
+        }
       }
     }
 
