@@ -1,19 +1,55 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Débora",
+      "lastname": "Suzuki",
+      "birthday": "09/04/1989",
+      "email": "deborayszk@gmail.com",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "password": "140711dc",
+      "id": 1
+    },
+    {
+      "name": "Charles",
+      "lastname": "Schaefer",
+      "birthday": "27/09/1987",
+      "email": "deborayszk@gmail.com",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "password": "140711dc",
+      "id": 2
+    },
+    {
+      "name": "Isabelli",
+      "lastname": "Schaefer",
+      "birthday": "2013-04-30",
+      "email": "teste@teste.com",
+      "city": "BH",
+      "state": "MG",
+      "password": "123456az",
+      "id": 3
+    },
+    {
+      "name": "Thomas",
+      "lastname": "Suzuki",
+      "birthday": "1961-11-08",
+      "email": "teste@teste.com",
+      "city": "BH",
+      "state": "MG",
+      "password": "123456az",
+      "id": 4
     }
   ],
-  "comments": [
+  "profile": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Débora",
+      "lastname": "Suzuki",
+      "birthday": "09/04/1989",
+      "email": "deborayszk@gmail.com",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "password": "140711dc"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
