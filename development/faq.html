@@ -205,21 +205,29 @@
         <input
           type="text"
           class="footer__contact--name"
+          id="contact__name"
           name="contac_name"
           placeholder="Nome"
         /><br />
         <input
           type="text"
           class="footer__contact--email"
+          id="contact__email"
           name="contac_email"
           placeholder="E-mail"
         /><br />
         <textarea
           class="footer__contact--message"
           name="contact_message"
+          id="contact__message"
           placeholder="Escreva sua mensagem aqui..."
         ></textarea>
-        <input class="footer__contact--btn" type="submit" value="Enviar" />
+        <input
+          class="footer__contact--btn"
+          type="submit"
+          value="Enviar"
+          onclick="enviarMensagem()"
+        />
       </form>
     </footer>
   </body>

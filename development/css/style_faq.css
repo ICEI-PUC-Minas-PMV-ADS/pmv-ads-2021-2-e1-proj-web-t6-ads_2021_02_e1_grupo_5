@@ -155,18 +155,20 @@ a {
 .footer__nav li {
   margin: 5px 0;
 }
-.footer__nav li:hover {
+.footer__nav li a {
+  cursor: pointer;
+  color: #fffefe;
+}
+.footer__nav li a:hover {
   font-weight: 700;
   color: #ddab86;
 }
-.footer__nav li:visited {
-  color: inherit;
+.footer__nav li a:visited {
+  color: #fffefe;
 }
-.footer__nav--tab {
-  cursor: pointer;
-}
-.footer__nav--tab:visited {
-  color: inherit;
+.footer__nav li a:visited:hover {
+  font-weight: 700;
+  color: #ddab86;
 }
 .footer__nav p {
   padding-top: 30px;

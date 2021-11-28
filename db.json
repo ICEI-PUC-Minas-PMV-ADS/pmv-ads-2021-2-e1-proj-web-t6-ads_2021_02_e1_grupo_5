@@ -19,26 +19,6 @@
       "state": "MG",
       "password": "123456az",
       "id": 2
-    },
-    {
-      "name": "Teste2",
-      "lastname": "Teste",
-      "birthday": "2015-08-08",
-      "email": "teste@teste.com",
-      "city": "BH",
-      "state": "MG",
-      "password": "789456az",
-      "id": 3
-    },
-    {
-      "name": "Teste3",
-      "lastname": "Teste",
-      "birthday": "1989-04-09",
-      "email": "teste3@testa.com",
-      "city": "BH",
-      "state": "MG",
-      "password": "123456az",
-      "id": 4
     }
   ],
   "messages": [
@@ -47,6 +27,12 @@
       "email": "debora@teste.com",
       "message": "Teste de mensagem!",
       "id": 1
+    },
+    {
+      "name": "Charles",
+      "email": "charles@tests.com",
+      "message": "Teste",
+      "id": 2
     }
   ],
   "profile": [
