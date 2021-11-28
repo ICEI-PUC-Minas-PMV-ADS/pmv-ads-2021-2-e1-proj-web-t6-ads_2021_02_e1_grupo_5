@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/src/images/icons/Logo.png"
+      href="./src/images/icons/Logo.png"
     />
     <title>Companhia Senior</title>
 
+    <!-- Importação de fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +22,7 @@
       rel="stylesheet"
     />
 
+    <!-- Importação fontawesome (ícones) -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -27,9 +31,15 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Importação CSS -->
     <link rel="stylesheet" href="/css/style_home.css" />
+
+    <!-- Importação JavaScript -->
+    <script src="./js/script_inicio.js" defer></script>
   </head>
   <body>
+    <!-- Barra de navegação -->
+
     <header class="header">
       <div class="header__logo">
         <div class="header__logo--icon"></div>
@@ -37,20 +47,29 @@
       </div>
       <nav>
         <ul class="header__navbar">
-          <li class="header__navbar--tab">INÍCIO</li>
-          <li class="header__navbar--tab">QUEM SOMOS</li>
-          <li class="header__navbar--tab">PERGUNTAS</li>
-          <li class="header__navbar--tab">BUSCAR</li>
-          <li class="header__navbar--tab">LOGIN</li>
-          <li class="header__navbar--btn">
-            <a href="/register.html">CADASTRE</a>
+          <li><a class="header__navbar--tab" href="/home.html">INÍCIO</a></li>
+          <li>
+            <a class="header__navbar--tab" href="/about.html">QUEM SOMOS</a>
           </li>
+          <li>
+            <a class="header__navbar--tab" href="/faq.html">PERGUNTAS</a>
+          </li>
+          <li>
+            <a class="header__navbar--tab" href="/home.html">BUSCAR</a>
+          </li>
+          <li>
+            <a class="header__navbar--tab" href="/login.html">LOGIN</a>
+          </li>
+          <a class="header__navbar--btn" href="/register.html">CADASTRE</a>
         </ul>
       </nav>
     </header>
+
+    <!-- Banner -->
+
     <section class="banner__1">
       <div class="banner__1--icon">
-        <i class="fas fa-chevron-circle-left"></i>
+        <!--<i class="fas fa-chevron-circle-left"></i>-->
       </div>
 
       <div class="banner__1--text">
@@ -61,12 +80,15 @@
           Para demandas de cuidados especiais ou apenas algumas horas de boa
           companhia!
         </p>
-        <a href="" class="banner__1--btn">Saiba Mais</a>
+        <a href="/about.html" class="banner__1--btn">Saiba Mais</a>
       </div>
       <div class="banner__1--icon">
-        <i class="fas fa-chevron-circle-right"></i>
+        <!--<i class="fas fa-chevron-circle-right"></i>-->
       </div>
     </section>
+
+    <!-- Botões de busca -->
+
     <section class="buttons">
       <div class="buttons__encontrar">
         <a href="" class="buttons__encontrar--cuidadores">
@@ -75,6 +97,9 @@
         <a href="" class="buttons__encontrar--familias"> Encontrar famílias </a>
       </div>
     </section>
+
+    <!-- Seção sobre a empresa -->
+
     <section class="explanation">
       <div class="explanation__logo"></div>
       <div class="explanation__text">
@@ -89,9 +114,12 @@
           seu ente querido. Por isso fornecemos um canal on-line onde famílias e
           cuidadores possam se conectar em um ambiente seguro.
         </p>
-        <a href="" class="explanation__text--btn">Saiba Mais</a>
+        <a href="/about.html" class="explanation__text--btn">Saiba Mais</a>
       </div>
     </section>
+
+    <!-- Seção de serviços -->
+
     <section class="services">
       <div class="services__img"></div>
 
@@ -106,6 +134,9 @@
         <a href="/register.html" class="services__text--btn">Conheça</a>
       </div>
     </section>
+
+    <!-- Seção de Depoimentos -->
+
     <section class="testimonials">
       <h3 class="testimonials__title">Depoimentos</h3>
       <div class="testimonials__people">
@@ -141,14 +172,17 @@
         </div>
       </div>
     </section>
+
+    <!-- Rodapé -->
+
     <footer class="footer">
       <div class="footer__nav">
         <ul>
-          <li class="footer__nav--tab">INÍCIO</li>
-          <li class="footer__nav--tab">QUEM SOMOS</li>
-          <li class="footer__nav--tab">PERGUNTAS</li>
-          <li class="footer__nav--tab">SERCIÇOS</li>
-          <li class="footer__nav--tab">NOTÍCIAS</li>
+          <li><a class="footer__nav--tab" href="/home.html">INÍCIO</a></li>
+          <li><a class="footer__nav--tab" href="/about.html">QUEM SOMOS</a></li>
+          <li><a class="footer__nav--tab" href="/faq.html">PERGUNTAS</a></li>
+          <li><a class="footer__nav--tab" href="">SERVIÇOS</a></li>
+          <li><a class="footer__nav--tab" href="/tips.html">NOTÍCIAS</a></li>
         </ul>
         <p>© 2021 PUC-MG - Curso ADS</p>
       </div>
@@ -159,6 +193,8 @@
           <i class="fab fa-instagram"></i>
         </div>
       </div>
+
+      <!-- Formulário de contato -->
 
       <form class="footer__contact" action="">
         <p>CONTATO</p>
