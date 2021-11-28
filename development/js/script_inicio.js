@@ -5,6 +5,7 @@ const init = () => {
 
 window.onload = init;
 
+//Verifica o preenchimento dos inputs
 function validarCadastro(event) {
   event.preventDefault();
 
@@ -98,6 +99,86 @@ function validarCadastro(event) {
     return;
   }
 
-  window.location.href = './registerFinish.html';
+  cadastrarUsuario();
+
   // console.log('Cadastrado');
+}
+
+//Armazena os dados informados no form e envia para o servidor
+function cadastrarUsuario() {
+  event.preventDefault();
+
+  const urlUsers = 'http://localhost:3000/users';
+
+  //Busca os dados do form
+  const user = {
+    name: document.getElementById('user__name').value,
+    lastname: document.getElementById('user__lastname').value,
+    birthday: document.getElementById('user__birthday').value,
+    email: document.getElementById('user__email').value,
+    city: document.getElementById('user__city').value,
+    state: document.getElementById('user__state').value,
+    password: document.getElementById('user__password').value,
+  };
+
+  //Envia os dados para o banco de dados
+  fetch(urlUsers, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(user),
+  })
+    .then((response) => {
+      response.json();
+    })
+    .then((json) => {
+      console.log(json);
+    });
+
+  window.location.href = './registerFinish.html';
+}
+
+//Busca dados dos usuários para validar o login
+function login() {
+  event.preventDefault();
+
+  const urlUsers = 'http://localhost:3000/users';
+  let userValid = {
+    user: '',
+    password: '',
+  };
+  const userEmail = document.getElementById('login__email').value;
+  const userPassword = document.getElementById('login__password').value;
+
+  //Busca lista de usuários do banco de dado
+  const usersList = (url) => {
+    let request = new XMLHttpRequest();
+    request.open('GET', url, false);
+    request.send();
+    return request.responseText;
+  };
+
+  const users = JSON.parse(usersList(urlUsers));
+
+  console.log('Lista obj', users);
+
+  // console.log(validList);
+
+  users.forEach((item) => {
+    if (userEmail == item.email && userPassword == item.password) {
+      userValid = {
+        user: item.email,
+        password: item.password,
+      };
+
+      console.log(userValid);
+    }
+  });
+
+  if (userEmail == userValid.user && userPassword == userValid.password) {
+    window.location.href = '/home.html';
+  } else {
+    alert('Usuário ou senha inválidos!');
+  }
 }

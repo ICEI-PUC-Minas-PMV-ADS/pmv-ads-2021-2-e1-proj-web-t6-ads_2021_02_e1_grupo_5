@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="./css/style_login.css" />
 
     <!-- Importação JavaScript -->
-    <script src="./script_inicio.js" defer></script>
+    <script src="./js/script_inicio.js" defer></script>
   </head>
   <body>
     <main class="login">
@@ -51,7 +51,7 @@
                 <label
                   >E-mail
                   <br />
-                  <input type="email" class="user__email" name="user__email"
+                  <input type="email" id="login__email" name="login__emai"
                 /></label>
               </td>
             </tr>
@@ -63,25 +63,25 @@
                   <br />
                   <input
                     type="password"
-                    class="user__password"
-                    name="user__password"
+                    id="login__password"
+                    name="login__password"
                 /></label>
               </td>
             </tr>
           </table>
-          <div class="login__links">
+          <!--<div class="login__links">
             <label for="user__save"
               ><input type="checkbox" name="user__save" id="user__save" />
               Manter conectado
             </label>
             <a id="user__resetPassword" href="">Esqueci a senha!</a>
-          </div>
+          </div>-->
           <div class="login__submit">
             <input
               type="submit"
               class="login__submit--btn"
               value="ENTRAR"
-              onclick="validarCadastro(event)"
+              onclick="login(event)"
             />
           </div>
           <div class="login__newRegister">
