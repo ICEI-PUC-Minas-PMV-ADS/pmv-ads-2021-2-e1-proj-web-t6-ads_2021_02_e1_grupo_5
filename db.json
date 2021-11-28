@@ -19,6 +19,26 @@
       "state": "MG",
       "password": "123456az",
       "id": 2
+    },
+    {
+      "name": "Teste4",
+      "lastname": "Teste",
+      "birthday": "1989-04-09",
+      "email": "teste4@teste.com",
+      "city": "BH",
+      "state": "MG",
+      "password": "321321qq",
+      "id": 3
+    },
+    {
+      "name": "Teste4",
+      "lastname": "Teste",
+      "birthday": "1989-04-09",
+      "email": "teste4@teste.com",
+      "city": "BH",
+      "state": "MG",
+      "password": "123456aa",
+      "id": 4
     }
   ],
   "profile": [
