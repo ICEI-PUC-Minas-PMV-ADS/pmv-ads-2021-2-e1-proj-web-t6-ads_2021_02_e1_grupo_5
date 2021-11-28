@@ -212,3 +212,30 @@ function mostrarSenha() {
     eye.classList.add('fa-eye');
   }
 }
+
+//Enviar mensagem de contato
+function enviarMensagem() {
+  event.preventDefault();
+
+  const urlMessages = 'http://localhost:3000/messages';
+
+  //Busca os dados do form
+  const userMessage = {
+    name: document.getElementById('contact__name').value,
+    email: document.getElementById('contact__email').value,
+    message: document.getElementById('contact__message').value,
+  };
+
+  //Envia os dados para o banco de dados
+  const postMessage = (url) => {
+    let request = new XMLHttpRequest();
+    request.open('POST', url, true);
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send(JSON.stringify(userMessage));
+    request.onload = () => {
+      console.log(this.responseText);
+    };
+  };
+
+  postMessage(urlMessages);
+}
