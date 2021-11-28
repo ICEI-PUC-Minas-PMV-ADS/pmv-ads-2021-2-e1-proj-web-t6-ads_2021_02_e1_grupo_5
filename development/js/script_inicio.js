@@ -177,7 +177,7 @@ function login() {
   });
 
   if (userEmail == userValid.user && userPassword == userValid.password) {
-    window.location.href = '/home.html';
+    window.location.href = '/principal.html';
   } else {
     alert('Usuário ou senha inválidos!');
   }
