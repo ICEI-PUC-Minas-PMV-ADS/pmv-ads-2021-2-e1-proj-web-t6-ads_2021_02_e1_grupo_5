@@ -61,6 +61,7 @@
 
         tr {
           width: 100%;
+          position: relative;
 
           td {
             label {
@@ -87,6 +88,13 @@
                   outline: 0;
                 }
               }
+            }
+
+            i {
+              color: $light;
+              position: absolute;
+              margin-top: 17px;
+              margin-left: -30px;
             }
           }
         }

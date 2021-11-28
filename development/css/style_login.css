@@ -67,6 +67,7 @@ a {
 }
 .login__modal--form table tr {
   width: 100%;
+  position: relative;
 }
 .login__modal--form table tr td label {
   font-weight: 700;
@@ -88,6 +89,12 @@ a {
 .login__modal--form table tr td label input:focus {
   border: 3px solid #9dc8cf;
   outline: 0;
+}
+.login__modal--form table tr td i {
+  color: #fffefe;
+  position: absolute;
+  margin-top: 17px;
+  margin-left: -30px;
 }
 .login__modal--form .login__links {
   display: flex;
