@@ -9,6 +9,16 @@
       "state": "Minas Gerais",
       "password": "140711dc",
       "id": 1
+    },
+    {
+      "name": "Teste`",
+      "lastname": "Teste",
+      "birthday": "1989-04-09",
+      "email": "teste@teste.com",
+      "city": "BH",
+      "state": "MG",
+      "password": "123456az",
+      "id": 2
     }
   ],
   "profile": [

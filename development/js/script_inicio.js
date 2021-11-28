@@ -122,19 +122,33 @@ function cadastrarUsuario() {
   };
 
   //Envia os dados para o banco de dados
-  fetch(urlUsers, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(user),
-  })
-    .then((response) => {
-      response.json();
-    })
-    .then((json) => {
-      console.log(json);
-    });
+
+  const postUser = (url) => {
+    let request = new XMLHttpRequest();
+    request.open('POST', url, true);
+    request.setRequestHeader('Content-Type', 'application/json');
+    request.send(JSON.stringify(user));
+    request.onload = () => {
+      console.log(this.responseText);
+    };
+    console.log('Cadastro', user);
+  };
+
+  postUser(urlUsers);
+
+  // fetch(urlUsers, {
+  //   method: 'POST',
+  //   headers: {
+  //     'Content-Type': 'application/json',
+  //   },
+  //   body: JSON.stringify(user),
+  // })
+  //   .then((response) => {
+  //     response.json();
+  //   })
+  //   .then((json) => {
+  //     console.log(json);
+  //   });
 
   window.location.href = './registerFinish.html';
 }
