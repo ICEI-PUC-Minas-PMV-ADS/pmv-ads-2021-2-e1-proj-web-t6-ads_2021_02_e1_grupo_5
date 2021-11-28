@@ -177,8 +177,24 @@ function login() {
   });
 
   if (userEmail == userValid.user && userPassword == userValid.password) {
-    window.location.href = '/home.html';
+    window.location.href = '/principal.html';
   } else {
     alert('Usuário ou senha inválidos!');
+  }
+}
+
+//Mostrar senha no login
+function mostrarSenha() {
+  let inputPassword = document.getElementById('login__password');
+  let eye = document.getElementById('eye');
+
+  if (inputPassword.getAttribute('type') == 'password') {
+    inputPassword.setAttribute('type', 'text');
+    eye.classList.remove('fa-eye');
+    eye.classList.add('fa-eye-slash');
+  } else {
+    inputPassword.setAttribute('type', 'password');
+    eye.classList.remove('fa-eye-slash');
+    eye.classList.add('fa-eye');
   }
 }
