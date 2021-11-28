@@ -1,0 +1,77 @@
+html
+min-width 
+
+body
+{background-image: url(../Images/backgroundsaida1200.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+
+nav
+ {background-color: #F1ECEC;
+    position: fixed;
+    width: 500px;
+    height: 289px;
+    left: 15px;
+    top: 185px;
+border-radius: 30px;
+
+}
+
+p{ font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+button {
+    position: fixed;
+    width: 235px;
+    height: 57px;
+    left: 153px;
+    top: 280px;
+    background: #263B58;    
+    border-radius: 8px;
+    display: flex;
+}
+
+.buttons_sair {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFEFE;
+    position: fixed;
+    top: 292px;
+    left: 246px
+}
+ 
+
+a{ position: fixed;
+    width: 221px;
+    height: 31px;
+    left: 167px;
+    top: 350px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    display: block;
+    color: #263B58;
+    }
