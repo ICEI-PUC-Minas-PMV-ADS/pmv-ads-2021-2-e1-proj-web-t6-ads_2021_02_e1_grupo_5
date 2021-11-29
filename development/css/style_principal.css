@@ -222,7 +222,7 @@ main {
   color: rgba(38, 59, 88, 1);
 }
 
-.btn:hover {
+.card__info--btn:hover {
   background-color: #467495;
 }
 .img {
