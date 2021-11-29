@@ -11,17 +11,7 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 33px;
-  text-align: center;
-  margin: 50px 445px 10px 0px;
 
-  color: #467495;
-}
 li {
   list-style: none;
 }
@@ -38,13 +28,13 @@ a {
   align-items: center;
 }
 .header__logo--icon {
-  background-image: url('/src/Images/Logo_Header.png');
+  background-image: url('/src/images/icons/Logo_Header.png');
   background-size: cover;
   width: 50px;
   height: 50px;
 }
 .header__logo--text {
-  background-image: url('/src/Images/Logo_Header_2.png');
+  background-image: url('/src/images/icons/Logo_Header_2.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
@@ -57,7 +47,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px 0 180px;
+  padding: 0 15px 0 280px;
 }
 .header__navbar--tab {
   color: #9dc8cf;
@@ -66,6 +56,181 @@ a {
 }
 .header__navbar--tab:hover {
   color: #263b58;
+}
+.header__navbar--tab:active {
+  color: #263b58;
+}
+.header__navbar--btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  color: #263b58;
+  font-weight: 700;
+  background-color: #9dc8cf;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header__navbar--btn:visited {
+  color: #263b58;
+}
+.header__navbar--btn:hover {
+  color: #9dc8cf;
+  background-color: #263b58;
+}
+.header__navbar--btn:hover:visited {
+  color: #9dc8cf;
+}
+
+main {
+  width: 100%;
+  max-width: 1240px;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.main {
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #467495;
+  margin-bottom: 30px;
+}
+
+.main__users {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__users--top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+  background: #fffefe;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+}
+
+.cards__img--idosa {
+  width: 400px;
+  height: 390px;
+
+  display: flex;
+  align-items: flex-end;
+
+  background-image: url('/src/images/people/julieta.jpg');
+}
+
+.cards__img--cuidadora {
+  width: 400px;
+  height: 390px;
+
+  display: flex;
+  align-items: flex-end;
+
+  background-image: url('/src/images/people/eleonora.jpg');
+}
+
+.card__img--user {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(157, 200, 207, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__img--user h3 {
+  font-size: 18px;
+  font-weight: bold !important;
+  line-height: 21px;
+  font-weight: normal;
+  color: rgba(38, 59, 88, 1);
+  margin: 0px 5px 0px 10px;
+}
+
+.card__img--user h4 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: normal;
+  color: rgba(38, 59, 88, 1);
+  margin: 0px 5px 0px 10px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(157, 200, 207, 0.5);
+}
+.card__info--description {
+  color: rgba(38, 59, 88, 1);
+  margin: 20px 10px;
+  text-align: justify;
+  height: 100px;
+}
+
+.card__info--btn {
+  height: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(157, 200, 207, 0.5);
+}
+.card__info--btn a {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: bold;
+  text-align: center;
+
+  color: rgba(38, 59, 88, 1);
+}
+
+.btn:hover {
+  background-color: #467495;
+}
+.img {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+aside {
+  width: 23%;
 }
 .tudo {
   display: flex;
@@ -89,7 +254,6 @@ a {
 
   width: 281px;
   height: 1200px;
-  margin: -580px 0px 10px 100px;
 }
 .buscar h2 {
   font-size: 18px;
@@ -123,67 +287,6 @@ a {
   width: 225px;
   margin: 0px 15px 15px;
 }
-.card {
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-  justify-content: space-around;
-
-  width: 400px;
-  height: 280px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-
-  background: rgba(157, 200, 207, 0.7);
-  box-sizing: border-box;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 0px;
-
-  margin: 370px 20px 10px -400px;
-}
-.card h3 {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: normal;
-  color: rgba(38, 59, 88, 1);
-  margin: 0px 5px 0px 5px;
-}
-.card a {
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: bold;
-  text-align: center;
-
-  color: rgba(38, 59, 88, 1);
-}
-.card p {
-  color: rgba(38, 59, 88, 1);
-}
-.btn {
-  background-color: #9dc8cf;
-  font-weight: 700;
-  padding: 10px 110px;
-}
-.btn:hover {
-  background-color: #467495;
-}
-.img {
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
-}
-.cards {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin: -120px 0px 0px 50px;
-}
-.cards2 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin: -100px 0px 0px 50px;
-}
 
 .footer {
   display: flex;
@@ -197,18 +300,20 @@ a {
 .footer__nav li {
   margin: 5px 0;
 }
-.footer__nav li:hover {
+.footer__nav li a {
+  cursor: pointer;
+  color: #fffefe;
+}
+.footer__nav li a:hover {
   font-weight: 700;
   color: #ddab86;
 }
-.footer__nav li:visited {
-  color: inherit;
+.footer__nav li a:visited {
+  color: #fffefe;
 }
-.footer__nav--tab {
-  cursor: pointer;
-}
-.footer__nav--tab:visited {
-  color: inherit;
+.footer__nav li a:visited:hover {
+  font-weight: 700;
+  color: #ddab86;
 }
 .footer__nav p {
   padding-top: 30px;
