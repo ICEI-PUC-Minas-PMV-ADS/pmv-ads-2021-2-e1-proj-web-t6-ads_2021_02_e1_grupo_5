@@ -1,4 +1,4 @@
-/* PERFIL (FAMÍLIA) */
+/*DICAS*/
 
 html {
   font-size: 16px;
@@ -17,26 +17,6 @@ li {
 a {
   text-decoration: none;
 }
-
-.backgroud {
-  position: relative;
-  width: 1440px;
-  height: 2037px;
-  background: #ffffff;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr; /*colunas*/
-  grid-template-rows: auto; /*linhas*/
-  grid-template-areas:
-    'cabecalho'
-    'conteudo'
-    'periferico'
-    'rodape'; /*corpo do site*/
-  grid-gap: 55px 0px;
-}
-/* Header */
 .header {
   display: flex;
   margin: 20px 50px;
@@ -101,105 +81,113 @@ a {
 .header__navbar--btn:hover:visited {
   color: #9dc8cf;
 }
-/* Div */
-.profileHeader {
-  display: flex;
-  width: 1440px;
-  height: 383px;
-  left: 0px;
-  top: 100px;
 
-  background: url('/src/images/backgrounds/profile.jpg');
-  background-size: cover;
+.banner__1 {
+  background-image: url('/src/images/banners/banner_1.png');
+  background-size: contain;
+  width: 100%;
+  height: 400px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.profileHeader__img {
-  display: flex;
-  justify-content: right;
-  align-items: stretch;
-  margin: 230px 105px;
-  width: 300px;
-  height: 292.59px;
-  left: 115px;
-  top: 362px;
+.banner__1--text {
+  width: 600px;
+  margin-right: 600px;
+  text-align: center;
 }
-
-.profileHeader__user--name {
-  display: flex;
-  justify-content: right;
-  align-items: stretch;
-  margin: 400px -197px;
-  width: 286px;
-  height: 430px;
-  left: 10px;
-  top: 508px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-
+.banner__1--icon {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  color: #ddab86;
+}
+.banner__1--icon:hover {
+  color: #263b58;
+}
+.banner__1--title {
+  font-size: 36px;
+  color: #263b58;
+  text-align: center;
+}
+.banner__1--subtitle {
+  margin: 40px 50px;
+  font-size: 24px;
   color: #467495;
+  text-align: center;
 }
-
-.profileHeader__user--localidade {
+.cards {
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   align-items: stretch;
-  margin: -790px -100px;
-  width: 263px;
-  height: 32px;
-  left: 433px;
-  top: 1551px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+
+  width: 1150px;
+  height: 230px;
+  border: 15px solid rgb(255, 255, 255);
+  padding: 0px;
+  margin: 20px 10px 0px 150px;
 
   font-family: Roboto;
+  color: #263b58;
+}
+
+.cards--img {
+  width: 150px;
+  height: 150px;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+
+  margin: 20px 10px 0px 180px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards--title {
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  width: 1100px;
+
+  margin: 0px 0px 50px 0px;
+}
+.cards--description {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  width: 900px;
+  margin: 0px 0px 0px 0px;
+}
+.cards--link {
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-
-  color: #467495;
-}
-/* Main */
-main {
-  grid-area: conteudo;
-}
-.profile {
-  font-family: Roboto;
-  font-style: normal;
-  color: #263b58;
-
-  grid-area: conteudo;
-}
-.profile__quemsou,
-.profile__especial,
-.profile__oque,
-.profile__relato,
-.profile__necessidade {
-  width: 80%;
-  text-align: justify;
-}
-.profile__quemsou--title,
-.profile__especial--title,
-.profile__oque--title,
-.profile__relato--title,
-.profile__necessidade--title {
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 26px;
-
-  padding-bottom: 10px;
-  margin: 150px 10px 10px 150px;
-
-  border-bottom: solid 0.5px #9dc8cf;
-}
-.profile__quemsou--text,
-.profile__especial--text,
-.profile__necessidade--text,
-.profile__oque--text,
-.profile__relato--text {
+  font-size: 18px;
   line-height: 21px;
-  margin: 10px 10px 30px 150px;
+  width: 900px;
+
+  margin: 50px 0px 0px 0px;
+}
+.cards--link2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  width: 900px;
+
+  margin: 5px 0px 0px 0px;
 }
 
 .footer {
@@ -306,10 +294,9 @@ main {
     margin: 0px 0px 0px 110px;
   }
   .header__navbar--tab {
-    width: 100px;
+    width: 60px;
     font-size: 14px;
-
-    min-width: 200px;
+    margin: 0px 10px 0px -40px;
   }
   .header__logo-icon {
     width: 10;
@@ -319,22 +306,52 @@ main {
     display: none;
   }
   .header__navbar {
-    padding: 0 15px 0 0px;
+    padding: 0px 15px 0px 0px;
     list-style: inside;
   }
-  .profileHeader {
-    width: 400px;
+  .banner__1 {
+    width: 280px;
+    height: 80px;
     display: flex;
     flex-flow: row wrap;
+  }
+  .banner__1--title {
+    width: 150px;
+    font-size: 15px;
+  }
+  .banner__1--subtitle {
+    display: none;
+  }
+  .cards {
+    width: 220px;
+    height: 750px;
+    margin: 100px 50px;
 
-    background: none;
+    flex-direction: column;
   }
-  .profileHeader__img {
-    margin: 100px 40px;
+  .picture {
+    display: flex;
+    margin: -30px -40px 0px -5px;
   }
-  .profileHeader__user--name {
-    margin: -100px 60px 10px -80px;
+  .text {
+    display: flex;
+  }
+  .cards--description {
+    width: 190px;
+    margin: 20px 0px 0px 0px;
     font-size: 20px;
+  }
+  .cards--link {
+    width: 190px;
+    margin: 20px 0px 0px;
+  }
+  .cards--link2 {
+    width: 190px;
+    margin: 20px 0px 0px;
+  }
+  .cards--title {
+    width: 190px;
+    margin: -50px 0px 0px;
   }
   .profileHeader__user--localidade {
     margin: -400px 60px 10px 5px;
@@ -344,7 +361,41 @@ main {
     display: flex;
     flex-flow: row wrap;
 
-    width: 600px;
+    width: 450px;
     margin: 50px 10px 10px -120px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    height: 500px;
+    width: 100%;
+    background-color: #263b58;
+    color: #fffefe;
+  }
+  .footer__nav--tab {
+    margin: 0px 20px 0px -120px;
+  }
+  .footer__nav p {
+    width: 220px;
+    margin: 0px 20px 0px -120px;
+  }
+  .footer__socials {
+    flex-direction: column;
+    margin: 0px 20px 0px -120px;
+  }
+  .footer__contact {
+    flex-direction: column;
+    margin: 230px 20px 400px -235px;
+  }
+  .footer__contact--name,
+  .footer__contact--email {
+    height: 30px;
+    width: 180px;
+    margin: 5px 0;
+    padding-left: 8px;
+  }
+  .footer__contact--message {
+    width: 200px;
   }
 }
